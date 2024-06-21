@@ -80,7 +80,6 @@ function pipesUpdate() {
 function playerUpdate() {
     if (frame%10 == 0) player.speed += gravity;
     player.y += player.speed;
-    if(player.y > height-player.w) player.y = height-player.w;
 }
 
 function checkGameover(p) {
